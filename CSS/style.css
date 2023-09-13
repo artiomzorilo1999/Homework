@@ -1,0 +1,19 @@
+li{
+    color: red;
+}
+
+#id-list{
+    color: green;
+}
+.class-list{
+    color: blue;
+}
+.class-list #id-list li{
+    color: black;
+}
+* {
+    color: black;
+}
+[data-target]{
+    text-decoration: line-through;
+}
