@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+}
+.container
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.card{
+    margin: 30px 30px 30px 20px;
+  
+    max-width: 250px;
+    display: inline-block;
+}
+.card-title{
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    margin: 10px 10px 10px 10px;
+    font-weight: 400;
+}
+.description{
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    margin:  18px 18px 18px 18px;
+}
