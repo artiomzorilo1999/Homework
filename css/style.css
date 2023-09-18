@@ -1,0 +1,61 @@
+*{  /*Сброс всех стилей */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+    height: 800px;
+    background: #C4C4C4
+}
+.wraper{
+   
+    border: 3px solid #4CAF50;
+    background-color:#E6E6E6;
+    overflow: auto;
+
+}
+.warper-2{
+    margin-top: 50px;
+    border: 3px solid #4CAF50;
+    background-color:#E6E6E6;
+    overflow: auto;
+ 
+}
+.warper-3{
+    margin-top: 50px;
+    border: 3px solid #4CAF50;
+    background-color:#E6E6E6;
+    overflow: auto;
+
+}
+.card{
+    padding-top: 63px;
+    width: 200px;
+    height: 200px;
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    background: #FC8F8F;
+}
+.card-small{
+    padding-top: 31px;
+    width: 100px;
+    height: 100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    background: #FC8F8F;
+}
+.float-left{
+    margin-right: 15px;
+    float: left;
+}
+.float-right{
+    margin-left: 15px;
+    float: right;
+}
+.small-right{
+    margin-left: 15px;
+    float: right;
+}
