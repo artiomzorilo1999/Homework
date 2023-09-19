@@ -3,34 +3,125 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-}
-img{
+/* Стиль заголовка */
+.header {
+    background-color: rgb(217, 63, 63);
+    padding-top:  10px;
+    text-align: center;
+    color: aliceblue;
+  }
+   /* Стиль верхней панели навигации */
+   .topnav {
+    overflow: auto;
+    background-color: #333;
+  }
+   /* Стиль верхних навигационных панелей */
+   .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*Решил немного по игратся*/
+  a:visited{ /*Отображает ссылки на которые мы не находимся*/
+    color: #04b5f0;
+  }
+  a:focus{ /*Отображает при нажатии*/
+    color: #000;
+  }
+  a:link{/*Отображает на которой находимся*/
+    color: #4CAF50; 
+  }
+a:hover{ /*Отображает  при наведение*/
+    color: aqua;
+  } 
+  a:active{ /*Отображает  при нажатии*/
+    color: #d561ea; 
+  }
+h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+h1{
+    padding: 10px;
+  }
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #4CAF50;
+    border-radius: 10%;
+    text-align: center;
+    width: 400px;
+    max-width: 100%;
+    min-height: 200px;
+    background: #04b5f0;
+
+  }
+p{
+    display: inline-block;
+    padding: 15px;
+    
+  }
+ #form-email{
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+  }
+#form-psw{
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+  }
+#form-psw-2{
+    padding: 14px 20px;
+    margin: 8px 0;
     width: 100%;
 }
-.container
-{
-    max-width: 1140px;
-    margin: 0 auto;
+
+button {
+    background-color: #d561ea;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  /*------------------------------------------------------------------------------------------*/
+.car-catalog{
+    color: rgb(254, 0, 0);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
 }
 
-.card{
-    margin: 30px 30px 30px 20px;
-  
-    max-width: 250px;
-    display: inline-block;
-}
-.card-title{
+.catalog{
     text-align: center;
-    font-size: 30px;
-    font-style: normal;
-    margin: 10px 10px 10px 10px;
-    font-weight: 400;
+    margin: 0 auto;
+    
 }
-.description{
+.form-select-container{
+    max-width: 50%;
+    min-height: 50%;
+    background: rgb(243, 243, 243);
+}
+.find-car{
+    margin-left: 10px;
     text-align: center;
-    font-size: 14px;
-    font-style: normal;
-    margin:  18px 18px 18px 18px;
+    max-width: 100px;
+    background-color:red ;
+}   
+.form-select{
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+}
+/*-------------------------------------------------------------------------------------------*/
+.color{
+    padding: 14px 20px;
+    margin: 8px 0;
+   
 }

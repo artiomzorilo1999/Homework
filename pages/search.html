@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Сайт по продажам Б/У машин</h1>
+      <div class="topnav">
+        <a href="../index.html">Регистрация</a>
+        <a href="../pages/authorization.html">Авторизация</a>
+        <a href="../pages/search.html">Поиск</a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="car-catalog"><b>Каталог машин</b></div>
+        <form
+          action="https://fom.in.ua/echo"
+          method="post"
+          class="form-select-container"
+        >
+          <p class="catalog">КПП</p>
+          <select name="form_select" class="form-select">
+            <option value="">Автомат</option>
+            <option value="">Механика</option>
+          </select>
+          <p class="catalog">Тип кузова</p>
+          <select name="form_select" class="form-select">
+            <option value="">Кросовер</option>
+            <option value="">Внедорожник</option>
+            <option value="">Седан</option>
+            <option value="">Купе</option>
+          </select>
+          <p class="catalog">Тип двигателя</p>
+          <select name="form_select" class="form-select">
+            <option value="">Бензин</option>
+            <option value="">Дизель</option>
+            <option value="">Газ</option>
+          </select>
+          <p class="catalog">Цвет машины</p>
+          <input type="color" name="color" class="color" />
+          <button class="find-car">Подобрать</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
