@@ -23,6 +23,16 @@
           method="post"
           class="form-select-container"
         >
+          <p class="catalog">Цена машины</p>
+          <input
+            type="number"
+            list="priceList"
+            min="1000"
+            max="100000"
+            value="2000"
+            name="price"
+            class="form-select"
+          />
           <p class="catalog">КПП</p>
           <select name="form_select" class="form-select">
             <option value="">Автомат</option>
@@ -41,6 +51,8 @@
             <option value="">Дизель</option>
             <option value="">Газ</option>
           </select>
+          <p class="catalog">Выберите год выпуска</p>
+          <input type="date" class="form-select" />
           <p class="catalog">Цвет машины</p>
           <input type="color" name="color" class="color" />
           <button class="find-car">Подобрать</button>

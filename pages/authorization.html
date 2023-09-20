@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <title>Регистрация</title>
   </head>
-  <body style="background-image: url(../img/12.jpg)">
+  <body>
     <header class="header">
       <h1>Сайт по продажам Б/У машин</h1>
       <div class="topnav">
@@ -22,7 +22,7 @@
           <div class="container">
             <input
               id="form-email"
-              type="text"
+              type="email"
               placeholder="Ведите Email"
               title="Ведите Email"
               required
@@ -30,17 +30,32 @@
 
             <input
               id="form-psw"
-              type="text"
+              type="password"
               placeholder="Ведите Пароль"
               title="Ведите Пароль"
               maxlength="10"
               required
             />
+            <input
+              type="checkbox"
+              onclick="myFunction()"
+              class="psw-shou"
+            />Посмотреть пароль
 
             <button>Авторизация</button>
           </div>
         </form>
       </section>
     </main>
+    <script>
+      function myFunction() {
+        var y = document.getElementById("form-psw");
+        if (y.type === "password") {
+          y.type = "text";
+        } else {
+          y.type = "password";
+        }
+      }
+    </script>
   </body>
 </html>
