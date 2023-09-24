@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Сайт по продажам Б/У машин</h1>
+      <div class="topnav">
+        <a href="../index.html">Регистрация</a>
+        <a href="../pages/authorization.html">Авторизация</a>
+        <a href="../pages/search.html">Поиск</a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <form action="https://fom.in.ua/echo" method="post">
+          <h2>Авторизация</h2>
+          <div class="container">
+            <input
+              id="form-email"
+              type="email"
+              placeholder="Ведите Email"
+              title="Ведите Email"
+              required
+            />
+
+            <input
+              id="form-psw"
+              type="password"
+              placeholder="Ведите Пароль"
+              title="Ведите Пароль"
+              maxlength="10"
+              required
+            />
+            <input
+              type="checkbox"
+              onclick="myFunction()"
+              class="psw-shou"
+            />Посмотреть пароль
+
+            <button>Авторизация</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script>
+      function myFunction() {
+        var y = document.getElementById("form-psw");
+        if (y.type === "password") {
+          y.type = "text";
+        } else {
+          y.type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>
