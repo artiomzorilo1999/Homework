@@ -1,0 +1,31 @@
+@import url('./basic.css');
+
+table, tr , td,th{
+    
+   border: 1px solid;
+   text-align: center;
+   border-collapse: collapse;
+   padding: 0.25rem 0.5rem;
+
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.september, .december ,.october ,.november {  
+
+    display: inline-block;
+    margin: 20px;
+}
+.row{
+    background-color: red;
+}
+
+

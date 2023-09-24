@@ -3,74 +3,315 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Регистрация</title>
+    <title>Календарь</title>
   </head>
   <body>
-    <header class="header">
-      <h1>Сайт по продажам Б/У машин</h1>
-      <div class="topnav">
-        <a href="./index.html">Регистрация</a>
-        <a href="./pages/authorization.html">Авторизация</a>
-        <a href="./pages/search.html">Поиск</a>
-      </div>
-    </header>
-    <main>
-      <section>
-        <div class="container-warp">
-          <form action="https://fom.in.ua/echo" method="post">
-            <h2>Регистрация</h2>
-            <div class="container">
-              <input
-                id="form-email"
-                type="email"
-                placeholder="Ведите Email"
-                title="Ведите Email"
-                required
-              />
-
-              <input
-                id="form-psw"
-                type="password"
-                placeholder="Ведите Пароль"
-                title="Ведите Пароль"
-                maxlength="10"
-                required
-              />
-
-              <input
-                id="form-psw-2"
-                type="password"
-                placeholder="Повторите  Пароль"
-                maxlength="10"
-                title="Повторите  Пароль"
-                required
-              />
-              <input
-                type="checkbox"
-                onclick="myFunction()"
-                class="psw-shou"
-              />Посмотреть пароль
-
-              <button>Регистрация</button>
-            </div>
-          </form>
+    <main class="main">
+      <section class="fiest section">
+        <div class="container">
+          <h1>Календарь на 2023 год</h1>
+          <table class="september">
+            <colgroup>
+              <col style="background-color: yellow" />
+            </colgroup>
+            <caption>
+              Сентябрь
+            </caption>
+            <thead>
+              <tr>
+                <th>№ Нед</th>
+                <th>Пн</th>
+                <th>Вт</th>
+                <th>Ср</th>
+                <th>Чт</th>
+                <th>Пт</th>
+                <th>Сб</th>
+                <th style="color: red">Вс</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td class="row">3</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td class="row">10</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td class="row">17</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td class="row">24</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="row"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="october">
+            <colgroup>
+              <col style="background-color: yellow" />
+            </colgroup>
+            <caption>
+              Октябрь
+            </caption>
+            <thead>
+              <tr>
+                <th>№ Нед</th>
+                <th>Пн</th>
+                <th>Вт</th>
+                <th>Ср</th>
+                <th>Чт</th>
+                <th>Пт</th>
+                <th>Сб</th>
+                <th style="color: red">Вс</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="row">1</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td class="row">8</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td class="row">15</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td class="row">22</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td class="row">29</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="row"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="november">
+            <colgroup>
+              <col style="background-color: yellow" />
+            </colgroup>
+            <caption>
+              Ноябрь
+            </caption>
+            <thead>
+              <tr>
+                <th>№ Нед</th>
+                <th>Пн</th>
+                <th>Вт</th>
+                <th>Ср</th>
+                <th>Чт</th>
+                <th>Пт</th>
+                <th>Сб</th>
+                <th style="color: red">Вс</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td class="row">5</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td class="row">12</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td class="row">19</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td class="row">26</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td></td>
+                <td></td>
+                <td class="row"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="december">
+            <colgroup>
+              <col style="background-color: yellow" />
+            </colgroup>
+            <caption>
+              Декабрь
+            </caption>
+            <thead>
+              <tr>
+                <th>№ Нед</th>
+                <th>Пн</th>
+                <th>Вт</th>
+                <th>Ср</th>
+                <th>Чт</th>
+                <th>Пт</th>
+                <th>Сб</th>
+                <th style="color: red">Вс</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td class="row">3</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td class="row">10</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td class="row">17</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td class="row">24</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="row">31</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
     </main>
-
-    <script>
-      function myFunction() {
-        var x = document.getElementById("form-psw-2");
-        var y = document.getElementById("form-psw");
-        if (x.type === "password" || y.type === "password") {
-          x.type = "text";
-          y.type = "text";
-        } else {
-          x.type = "password";
-          y.type = "password";
-        }
-      }
-    </script>
   </body>
 </html>
