@@ -1,31 +1,50 @@
 @import url('./basic.css');
 
-table, tr , td,th{
+
+
+.bg-beige{
+    background-color: var(--color-beige);
+}
+.bg-red{
+    background-color: var(--color-red);
+    color: #fff;
+}
+.max-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-title{
     
-   border: 1px solid;
-   text-align: center;
-   border-collapse: collapse;
-   padding: 0.25rem 0.5rem;
-
 }
-
-h1{
-    margin-top: 20px;
-    margin-bottom: 20px;
+/*-------------------------------------------------------------------------------------------------------*/
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.Logo{
+    font-family: 'CedarvilleCursive', sans-serif;
+    font-size: 32px;
+    float: left;
+    margin-right: 80px;
+}
+.text-green{
+    color: #62BFAD;;
+}
+.navigation{
+    padding-top: 11px;
+}
+.nav-link + .nav-link{
+    margin-left: 20px;
+}
+/*-------------------------------------------------------------------------------------------*/
+.first-section{
+    font-family: 'Limelight' cursive;
     text-align: center;
+    padding-top: 200px; /*Оцтуп в нутри*/
+    padding-bottom: 170px;/*Оцтуп в нутри*/ 
 }
-.container{
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
+.main-title{
+    font-size: 48px;
+    max-width: 740px;
 }
-.september, .december ,.october ,.november {  
-
-    display: inline-block;
-    margin: 20px;
-}
-.row{
-    background-color: red;
-}
-
-
+/*-------------------------------------------------------------------------------------------*/
