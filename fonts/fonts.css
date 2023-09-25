@@ -1,24 +1,12 @@
 @font-face {
-    font-family: "CedarvilleCursive";
-    src: url('./CedarvilleCursive-Regular.woff2') format('woff2');
+    font-family: "Roboto-Black";
+    src: url('./Roboto-Black.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: "Limelight";
-    src: url('./Limelight-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Lato";
-    src: url('./Lato-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Lato";
-    src: url('./Lato-Regular.woff2') format('woff2');
-    font-weight: 400;
+    font-family: "Roboto-Black-500";
+    src: url('./Roboto-Black.woff2') format('woff2');
+    font-weight: 500;
     font-style: normal;
 }

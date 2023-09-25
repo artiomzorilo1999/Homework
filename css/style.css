@@ -1,50 +1,87 @@
 @import url('./basic.css');
 
-
-
-.bg-beige{
-    background-color: var(--color-beige);
+.bg-grey{
+    background-color: var(--color-grey);
 }
-.bg-red{
-    background-color: var(--color-red);
+/*-------------------------------------------------------------------------------------------------------*/
+
+.navigation{
+    font-family:'Roboto-Black' sans-serif;
+    padding-top: 79px;
+    padding-left: 399px;
+    
+}
+.nav-link + .nav-link{
+    font-family:'Roboto-Black' sans-serif;
+    margin-left: 42px;
+    font-size: 16px;
+    color: black;
+}
+.nav-link + .nav-link:visited{
+    color: var( --color-blue);
+    font-size: 16px;
+}
+.main-titl{
+    font-family:'Roboto-Black-500' sans-serif;
+    padding-top: 151px;
+    
+    padding-left: 399px;
+    font-size: 48px;
+    
+}
+.text-titl{
+    font-family:'Roboto-Black' sans-serif;
+    font-size: 16px;
+    color: var(--color-grey2);
+    padding-top: 60px;
+    padding-left: 399px; 
+}
+.button{
+    background-color: var(--color-blue);
+    width: 225px;
+    height: 65px;
+    margin-top: 65px;
+    margin-left: 399px;
+    margin-bottom: 141px;
+}
+.button-text{
+    font-family:'Roboto-Black' sans-serif;
     color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+/*-------------------------------------------------------------------------------------------*/
+.about-me{
+    background-color: var(--color-lactic);
+}
+.section-title{
+    font-family:'Roboto-Black-500' sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 112px;;
+    
 }
 .max-auto{
     margin-left: auto;
     margin-right: auto;
 }
-.section-title{
-    
-}
-/*-------------------------------------------------------------------------------------------------------*/
-.header{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-.Logo{
-    font-family: 'CedarvilleCursive', sans-serif;
-    font-size: 32px;
-    float: left;
-    margin-right: 80px;
-}
-.text-green{
-    color: #62BFAD;;
-}
-.navigation{
-    padding-top: 11px;
-}
-.nav-link + .nav-link{
-    margin-left: 20px;
-}
-/*-------------------------------------------------------------------------------------------*/
-.first-section{
-    font-family: 'Limelight' cursive;
+.about{
     text-align: center;
-    padding-top: 200px; /*Оцтуп в нутри*/
-    padding-bottom: 170px;/*Оцтуп в нутри*/ 
-}
-.main-title{
-    font-size: 48px;
-    max-width: 740px;
+    padding-bottom: 112px;
+    padding-right: 690px;
+    padding-left: 690px;
 }
 /*-------------------------------------------------------------------------------------------*/
+.project{
+    background-color: var(--color-blue);
+}
+.icon-main{
+    
+    text-align: center;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+}
+.icon{
+       
+    margin-left: 140px;
+}

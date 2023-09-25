@@ -3,22 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-a{
+a {
     text-decoration: none;
 }
-img{
-    max-width: 100%;
-}
 html{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto-Black', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.2;/*НАдо разделить на 16*/
+    line-height: 1.6;
     color: #252525;
 }
 :root{
-    --container-width: 1110px;
-    --color-beige: #F9F7E8;
-    --color-red: #D52047;
-    --color-lightblue: #EFF8F6;
+    --container-width: 1920px;
+    --color-grey: #EEEFF1;
+    --color-lactic: #F9F9F9;
+    --color-blue:  #34547A;
+    --color-grey2: #727272;
 }
