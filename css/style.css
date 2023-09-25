@@ -74,14 +74,36 @@
 /*-------------------------------------------------------------------------------------------*/
 .project{
     background-color: var(--color-blue);
+ 
+    
 }
 .icon-main{
-    
     text-align: center;
     padding-top: 100px ;
     padding-bottom: 100px;
-}
-.icon{
-       
+    display: inline-block;
     margin-left: 140px;
+  
+    
+}
+.text-icon{
+   
+   
+    font-family:'Roboto-Black' sans-serif;
+    color: #fff;
+    font-size: 16px;
+   
+  
+    
+  
+}
+.text-icon-number{
+   
+    font-family:'Roboto-Black' sans-serif;
+    color: #fff;
+    font-size: 21px;
+}
+.float{
+    
+    float: right;
 }
