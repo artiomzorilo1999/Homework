@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+html{
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #252525;
+}
+:root{
+    --container-width: 1920px;
+    --color-grey: #EEEFF1;
+    --color-lactic: #F9F9F9;
+    --color-blue:  #34547A;
+    --color-grey2: #727272;
+}
