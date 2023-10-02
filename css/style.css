@@ -79,8 +79,10 @@
     display: inline-block;
     width: 141px;
     color: white;  
+   
 }
-.icon-main + .icon-main{
+.icon-main + .icon-main {
+    
     margin-left: 40px;
 }
 .text-icon-number{
@@ -110,14 +112,14 @@
 .video{
     text-align: center;
     margin-top: 57px;
+   
 }
 .video-YouTube{
    width: 100%;
+   margin-bottom: 20px;
 }
 /*---------------------------------------------------------------*/
-.footer{
-    padding-top: 20px;
-}
+
 .text-footer{
     color: white;
     font-family: 'Roboto-Black',sans-serif;
