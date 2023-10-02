@@ -43,7 +43,9 @@
     font-weight: 500;
     font-size: 16px;
     margin-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 65px;
+    max-width: 540px;
+
 }
 .button{
     display: inline-block;
@@ -52,7 +54,7 @@
     width: 100%;
     max-width: 225px;
     padding: 20px;
-    margin-top: 65px;
+    
     margin-bottom: 141px;
 }
 /*--------------------------------------------------------------*/
@@ -70,6 +72,17 @@
     font-family:'Roboto-Black',sans-serif;
     font-weight: 400;
     margin-top: 50px;
+    
+}
+.main-text-title-about{
+    font-family:'Roboto-Black',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
 }
 /*---------------------------------------------------------------*/
 
@@ -107,16 +120,27 @@
     font-size: 32px;
     font-family:'Roboto-Black',sans-serif;
     font-weight: 500;
-    margin-top: 50px;
+    
+    
+}
+.main-text-title-how{
+    font-family:'Roboto-Black',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 50px;
+    max-width:  540px;
+    margin: 0 auto;
+    text-align: center;
 }
 .video{
     text-align: center;
     margin-top: 57px;
+    padding-bottom: 100px;
    
 }
 .video-YouTube{
    width: 100%;
-   margin-bottom: 20px;
+   
 }
 /*---------------------------------------------------------------*/
 
@@ -125,6 +149,13 @@
     font-family: 'Roboto-Black',sans-serif;
     font-weight: 400;
     padding-top: 20px;
+}
+.text-footer-2{
+    color: white;
+    font-family: 'Roboto-Black',sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 
