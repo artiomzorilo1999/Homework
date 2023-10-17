@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #252525;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+:root {
+    --color-brown:#68513F;
+    --color-brown-wite:#E7DED8;
+}

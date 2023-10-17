@@ -1,0 +1,186 @@
+@import url('./basic.css');
+.container{
+    max-width: 1340px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+
+.navigation{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    box-shadow: 0 1px 8px #ddd;
+}
+
+
+
+.bg-card{
+    font-family: "Inter";
+    padding-left:  8px;
+    padding-right:  8px;
+    padding-top: 2px;
+    background-color: #E7DED8; 
+    text-align: center;
+    font-size: 11px;
+    margin-left: 8px;
+}
+/*---------------------------------------------------*/
+
+.img-1{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 20px;
+   position: relative;
+   width: 100%;
+}
+.section-title{
+    display: flex;
+    font-family: "Chines";
+    font-size: 60px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    max-width: 510px;
+
+}
+.you{
+    position: absolute;
+    font-family: "Style-Script";
+    color: var(--color-brown);
+    font-size: 130px;
+    transform: rotate(5.539deg);
+    top: 382px;
+    left: 433px;
+}
+.button{
+    border: 1px solid #DACEC6;
+    background-color: #F1EBE7;;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    color: var(--color-brown);
+    width: 100%;
+    max-width: 150px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    position: absolute;
+    top: 457px; 
+    left: 50px;
+   
+}
+
+.text-main{
+    max-width: 700px;
+    margin-top: 240px;
+}
+.natural{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 70px;
+    font-family: "Inter";
+}
+.skincare{
+    color: var(--color-brown);
+    font-family: "Style-Script";
+    transform: rotate(-5.079deg);
+    font-size: 137px;
+
+}
+.text{
+    font-size: 14px;
+    text-align: center;
+    font-family: "Inter";
+}
+.shop-button{
+    border-radius: 73px;
+    border: 1px solid #DACEC6;
+    background: #F1EBE7;    
+    font-size: 14px;
+    color: var(--color-brown);
+    width: 100%;
+    max-width: 95px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 47px;
+}
+/*--------------------------------------------*/
+.krem{
+   background-image: url('../img/krem.png');
+    
+}
+/*----------------------------------------------*/
+
+.products-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px;
+
+}
+.products{
+    color: var(--color-brown);
+    font-family: "Style-Script";
+    font-size: 137px;
+    max-width: 389px;
+
+}
+.skin{
+    font-family: "Chines";
+    text-align: center;
+    font-size: 65px;
+}
+/*-----------------------------------------*/
+.content{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+   justify-content: space-between;
+    margin-top: 60px;
+
+}
+.product-card{
+    
+    border-radius: 10px;
+    background: #E7DED8;
+    
+}
+.name-card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.name{
+    margin-left: 15px;
+}
+.card-img{
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.shop-now{
+    border-radius: 5px;
+    border: 1px solid #DACEC6;
+    background: #F1EBE7;
+    
+    width: 100%;
+    max-width: 305px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+   padding-top:13px ;
+   padding-bottom: 13px;
+}
