@@ -4,6 +4,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    
 }
 
 
@@ -17,6 +18,9 @@
     box-shadow: 0 1px 8px #ddd;
 }
 
+.logo{
+    height: auto;
+}
 
 
 .bg-card{
@@ -36,7 +40,8 @@
    justify-content: flex-end;
    margin-top: 20px;
    position: relative;
-   width: 100%;
+  
+   height: calc(100% - 50px);
 }
 .section-title{
     display: flex;
@@ -147,14 +152,18 @@
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
-   justify-content: space-between;
+    justify-content: space-between;
     margin-top: 60px;
+    
 
 }
 .product-card{
-    
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     background: #E7DED8;
+    flex-basis: calc(calc(100% / 4) - calc(120px/ 4));
     
 }
 .name-card{
@@ -165,22 +174,199 @@
 }
 .name{
     margin-left: 15px;
+    margin-bottom: 41px;
 }
 .card-img{
-   padding-left: 10px;
-   padding-right: 10px;
-   padding-top: 10px;
-   padding-bottom: 20px;
+    
+
 }
 .shop-now{
     border-radius: 5px;
     border: 1px solid #DACEC6;
-    background: #F1EBE7;
-    
+    background: #F1EBE7; 
     width: 100%;
     max-width: 305px;
-   margin-left: 10px;
-   margin-bottom: 10px;
+   
    padding-top:13px ;
    padding-bottom: 13px;
+}
+/*-----------------------------------------------------*/
+.first-section{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.text-main2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.picture{
+    height: calc(100% - 50px);
+}
+.feature{
+    font-size: 137px;
+    font-family: "Style-Script";
+    color: var(--color-brown);
+}
+.innovation{
+    font-size: 70px;
+    font-family: "Chines";
+}
+.temporibus{
+    font-size: 17px;
+    text-align: center;
+    max-width: 460px;
+}
+.read{
+    max-width: 115px;
+    text-align: center;
+    padding-top:13px ;
+    padding-bottom: 13px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin: 0 auto;
+    border: 1px solid #DACEC6;
+    background: #F1EBE7;
+    margin-top: 39px;
+}
+.generate{
+    
+    font-family: "Inter";
+    margin: auto;
+    text-align: center;
+    font-size: 28px;
+    font-size: 28px;
+    max-width: 832px;
+    margin-top: 206px;
+}
+.generate-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 56px;
+}
+/*---------------------------------------------------*/
+.img-girl{
+    padding-top: 209px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;   
+}
+/*--------------------------------------------------*/
+.blog-title{
+    text-align: center;
+    font-size: 66px;
+    font-family: "Chines";
+    padding-top: 90px;
+}
+.blog{
+  display: flex;
+  align-items: baseline;
+}
+.img-blog-1{
+    display: flex;
+    margin-right: 50px;
+    
+}
+.img-blog-2{
+    display:flex;
+}
+.blog-text{
+    max-width: 269px;
+    margin-left: 30px;
+    font-size: 28px;
+    font-family: "Chines";
+}
+.flex-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.read-more{
+    border-radius: 59px;
+    border: 1px solid #DACEC6;
+    background: #F1EBE7;
+    color: var(--color-brown);
+    margin-left: 29px;
+    margin-top: 58px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+/*-----------------------------------------------*/
+.container-footer{
+    margin-top: 127px;
+    display: flex;
+    background: #E7DED8;
+    max-width: 1340px;
+    border-radius: 10px;
+    
+}
+.footer-section-main{
+    display: flex;
+
+    justify-content: space-between;
+    gap: 50;
+}
+.section-footer-1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    max-width: 188px;;
+}
+.text-footer{
+    margin-top: 21px;
+}
+.text-footer-link{
+    margin-top: 57px;
+}
+.link-footer{
+    color: var( --color-brown);
+}
+.section-footer-2{
+    margin-top: 50px;
+   margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pases-2{
+    font-family: "Chines";
+    font-size: 24px;
+}
+.footer-link-2{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+
+}
+.section-footer-3{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    font-family: "Chines";
+    font-size: 27px;
+}
+.section-footer-4{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.pages-4{
+    font-family: "Chines";
+    font-size: 28px;
+}
+.mesendj{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 71px;
 }
