@@ -302,6 +302,7 @@
 /*-----------------------------------------------*/
 .container-footer{
     margin-top: 127px;
+    margin-left: 50px;
     display: flex;
     background: #E7DED8;
     max-width: 1340px;
