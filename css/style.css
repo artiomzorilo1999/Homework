@@ -10,14 +10,25 @@
 
 
 .navigation{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-
-    align-items: center;
-    box-shadow: 0 1px 8px #ddd;
+    margin-top: 20px;  
+    
 }
-
+.nav-left{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-centr{
+    display: flex;
+    justify-content: center;
+   
+}
+.nav-link{
+    margin-left: 40px;
+}
 .logo{
     height: auto;
 }
@@ -39,9 +50,9 @@
    display: flex;
    justify-content: flex-end;
    margin-top: 20px;
-   position: relative;
-  
-   height: calc(100% - 50px);
+   
+   max-width: 1407px;
+   
 }
 .section-title{
     display: flex;
