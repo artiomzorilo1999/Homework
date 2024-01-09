@@ -47,33 +47,27 @@
     margin-left: 8px;
 }
 /*---------------------------------------------------*/
-
-.img-1{
-   display: flex;
-   justify-content: flex-end;
-   margin-top: 20px;
-   
-   max-width: 1407px;
-   
+.view-collection{
+   display:flex ;
+   flex-direction: row-reverse;
 }
-.section-title{
-    display: flex;
+.img-1{
+  
+}
+.section-title {
+   
     font-family: "Chines";
     font-size: 60px;
-    position: absolute;
-    top: 150px;
-    left: 50px;
-    max-width: 510px;
-
+    max-width: 510px;   
 }
+
 .you{
     position: absolute;
     font-family: "Style-Script";
     color: var(--color-brown);
     font-size: 130px;
     transform: rotate(5.539deg);
-    top: 382px;
-    left: 433px;
+    
 }
 .button{
     border: 1px solid #DACEC6;
@@ -88,10 +82,7 @@
     padding-right: 21px;
     padding-top: 13px;
     padding-bottom: 13px;
-    position: absolute;
-    top: 457px; 
-    left: 50px;
-   
+    margin-top: 50px;   
 }
 
 .text-main{
