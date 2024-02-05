@@ -52,15 +52,12 @@
    background-image: url(../img/IMAGE.png);
    background-repeat: no-repeat;
    background-position: 100% 0%;
-
+    padding-bottom:  300px;
 
 }
 .section-title {
     display: flex;
-    
-
-
-  
+    padding-top: 80px;
     font-family: "Chines";
     font-size: 60px;
     max-width: 510px;   
@@ -72,8 +69,8 @@
     color: var(--color-brown);
     font-size: 130px;
     transform: rotate(5.539deg);
-    top: 307px;
-    left: 695px;    
+    top: 393px;
+    left: 682px;  
     
 }
 .button{
