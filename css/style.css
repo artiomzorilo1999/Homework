@@ -210,10 +210,14 @@
     justify-content: space-between;
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .name{
     margin-left: 15px;
     margin-bottom: 41px;
+    font-family: "Inter";
+    font-weight: bold;
+    line-height: 26px;
 }
 .card-img{
     
@@ -265,7 +269,7 @@
 .temporibus{
     font-size: 17px;
     text-align: center;
-    max-width: 460px;
+    
 }
 .read{
     max-width: 115px;
@@ -397,11 +401,23 @@
 .footer-link-2{
 
     max-width: 250px;
-
+    
+}
+.email{
+    color: var( --color-brown);
+}
+.number{
+    color: var( --color-brown);
 }
 .footer-link-2  ul{
     columns: 2;
+    list-style-type:  none;
+    
 }
+.footer-link-2  ul li{
+    margin-top: 5px;
+}
+
 .section-footer-3{
     margin-top: 50px;
     margin-left: 100px;
@@ -425,4 +441,5 @@
     display: flex;
     justify-content: space-between;
     margin-top: 71px;
+    
 }
