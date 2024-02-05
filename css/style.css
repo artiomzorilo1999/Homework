@@ -309,7 +309,26 @@
     align-items: center; 
     flex-wrap: wrap;  
     justify-content: center;
-    
+    position:relative;
+}
+.img-girl .overlay-1{
+    display: flex;
+    position:absolute;
+    max-width: 150px;
+    left: 328px;
+
+}
+.img-girl .overlay-2{
+    position:absolute;
+    max-width: 150px;
+    left: 800px;
+
+}
+.img-girl .overlay-3{
+    position:absolute;
+    max-width: 150px;
+    left: 1314px;
+
 }
 /*--------------------------------------------------*/
 .blog-title{
