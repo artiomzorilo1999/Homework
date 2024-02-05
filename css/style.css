@@ -1,5 +1,4 @@
 @import url('./basic.css');
-
 .container{
     max-width: 1340px;
     padding-left: 15px;
@@ -7,9 +6,6 @@
     margin: 0 auto;
     
 }
-
-
-
 .navigation{
 
     margin-top: 20px;  
@@ -159,10 +155,7 @@
     margin-top: 47px;
 }
 /*--------------------------------------------*/
-.krem{
 
-    
-}
 /*----------------------------------------------*/
 
 .products-main{
