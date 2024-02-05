@@ -1,4 +1,5 @@
 @import url('./basic.css');
+
 .container{
     max-width: 1340px;
     padding-left: 15px;
@@ -48,14 +49,18 @@
 }
 /*---------------------------------------------------*/
 .view-collection{
-   display:flex ;
-   flex-direction: row-reverse;
-}
-.img-1{
-  
+   background-image: url(../img/IMAGE.png);
+   background-repeat: no-repeat;
+   background-position: 100% 0%;
+
+
 }
 .section-title {
-   
+    display: flex;
+    
+
+
+  
     font-family: "Chines";
     font-size: 60px;
     max-width: 510px;   
@@ -83,6 +88,37 @@
     padding-top: 13px;
     padding-bottom: 13px;
     margin-top: 50px;   
+}
+.child{
+    position: absolute;
+}
+.img-natural-1{
+    position: absolute;
+    left: -319px;
+    top: -143px;
+}
+.img-natural-2{
+    position: absolute;
+    top: 350px;
+    left: -343px;
+}
+
+.img-natural-3{
+    position: absolute;
+    top: -228px;
+    left: 700px;
+}
+.img-natural-4{
+    position: absolute;
+    top: 40px;
+    left: 805px;
+}
+.img-natural-5{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    margin-bottom: 50px;
+
 }
 
 .text-main{
@@ -194,12 +230,21 @@
    padding-top:13px ;
    padding-bottom: 13px;
 }
+.krem-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
 /*-----------------------------------------------------*/
 .first-section{
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     gap: 100px;
+}
+.card-img{
+    max-width: 100%;
 }
 .text-main2{
     display: flex;
@@ -256,9 +301,12 @@
 .img-girl{
     padding-top: 209px;
     display: flex;
-    justify-content: space-evenly;
+   
     flex-direction: row;
-    align-items: center;   
+    align-items: center; 
+    flex-wrap: wrap;  
+    justify-content: center;
+    
 }
 /*--------------------------------------------------*/
 .blog-title{
@@ -289,6 +337,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
+    gap:1rem;
 
 }
 .read-more{
@@ -297,7 +347,7 @@
     background: #F1EBE7;
     color: var(--color-brown);
     margin-left: 29px;
-    margin-top: 58px;
+   
     padding-top: 13px;
     padding-bottom: 12px;
     padding-left: 21px;
@@ -306,7 +356,7 @@
 /*-----------------------------------------------*/
 .container-footer{
     margin-top: 127px;
-    margin-left: 50px;
+   
     display: flex;
     background: #E7DED8;
     max-width: 1340px;
@@ -346,10 +396,12 @@
     font-size: 24px;
 }
 .footer-link-2{
-    display: flex;
-    flex-direction: column;
+
     max-width: 250px;
 
+}
+.footer-link-2  ul{
+    columns: 2;
 }
 .section-footer-3{
     margin-top: 50px;
